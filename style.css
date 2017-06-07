@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "toledo";
+    src: url("media/Toledo.ttf")
+}
+
+* {
+    margin: 0;
+    font-family: "toledo";
+}
+
+body {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* NAV */
+
+nav {
+    background-color: rgba(37, 37, 38, 0.3);
+    color: white;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    align-self: flex-start;
+    width: 75px;
+    height: 75px;
+    margin: 1em 0 0 1em;
+}
+
+#navcont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+#navcont2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navelement {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 45%;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1.2em 0 1.2em 0;
+    padding: 0 1em 0 1em;
+}
+
+.navelement:hover {
+    color: #990606;
+}
+
+#contcp {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10%;
+}
+
+#copyright {
+    margin-bottom: 0.2em;
+}
+
+
+/* MAIN */
+
+main {
+    width: 75%;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+}
+
+section {
+    height: 70%;
+    width: 100%;
+}
+
+
+/* index */
+
+#indexheader {
+    background-image: url("media/alive.png");
+    background-size: 100%;
+    background-position: 10% 25%;
+}
+
+#indexcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+#indexp {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
