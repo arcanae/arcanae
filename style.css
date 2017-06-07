@@ -101,11 +101,40 @@ main {
 header {
     height: 30%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
     height: 70%;
     width: 100%;
+}
+
+.mainheader {
+    background-color: black;
+}
+
+#botline {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+
+.mainheader>div>h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.mainsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -115,13 +144,6 @@ section {
     background-image: url("media/alive.png");
     background-size: 100%;
     background-position: 10% 25%;
-}
-
-#indexcont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #welcome {
@@ -135,3 +157,6 @@ section {
     font-size: 1.5em;
     text-align: center;
 }
+
+
+/* about */
