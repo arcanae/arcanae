@@ -17,7 +17,7 @@
         </header>
         <section class="mainsec" id="workscont">
             <h1 id="welcome">Welcome to Arcanae's page</h1>
-            <p id="worksp">Use the menu at the left to navigate through the site.</p>
+            <p id="worksp">lorem1500</p>
         </section>
     </main>
 </body>
