@@ -166,6 +166,82 @@ section {
 
 /* about */
 
+#space {
+    width: 100%;
+    height: 5%;
+}
+
+#aboutcont {
+    display: block;
+    height: 59%;
+}
+
+#aboutcont>p {
+    margin: 0 0 0.5em 0.5em;
+    text-align: inherit;
+}
+
+#simplon {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#simp,
+#lon {
+    color: #db0020;
+}
+
+.hobbies {
+    font-style: italic;
+}
+
+#aboutcont>.hobbiesdes {
+    font-size: 1.2em;
+}
+
+.hobbiesdes>a {
+    color: #4e057c;
+}
+
+.titles {
+    text-decoration: underline;
+    font-size: 1.4em;
+}
+
+#mail {
+    text-decoration: underline;
+}
+
+#quote {
+    height: 2.5%;
+    width: 100%;
+}
+
+#quote>p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#fear {
+    color: #423e3e;
+}
+
+#hardwork {
+    font-weight: bold;
+}
+
+#icwt {
+    font-style: italic;
+}
+
+#spancode,
+#spanrust {
+    color: #db0020;
+}
+
 
 /*works*/
 
