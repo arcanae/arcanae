@@ -23,10 +23,8 @@
             <p class="hobbiesdes"><span class="titles">Code</span>: There is my <a href="https://github.com/arcanae">GitHub</a> if you want to see the "origins" of my projects.</p>
             <p class="hobbiesdes"><span class="titles">Quotes</span>: Maybe you've seen the picture on home page, thats a quote I made then edited it on an image. I have some more but nowhere to display them for the moment, it will maybe come later on this site.</p>
             <p>You can contact me at: <span id="mail">justin.courdesse@gmail.com</span> .</p>
+            <p id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
-        <div id="quote">
-            <p>"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
-        </div>
     </main>
 </body>
 </html>

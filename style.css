@@ -25,6 +25,7 @@ nav {
     width: 25%;
     display: flex;
     flex-direction: column;
+    position: fixed;
 }
 
 #logocont {
@@ -94,6 +95,7 @@ footer {
 
 main {
     width: 75%;
+    margin-left: 25%;
 }
 
 header {
@@ -139,7 +141,6 @@ section {
 .mainsec>p {
     color: white;
     font-size: 1.5em;
-    text-align: center;
 }
 
 
@@ -177,8 +178,8 @@ section {
 }
 
 #aboutcont>p {
-    margin: 0 0 0.5em 0.5em;
-    text-align: inherit;
+    margin: 0 0 1vh 1vw;
+    /*text-align: inherit;*/
 }
 
 #simplon {
@@ -214,15 +215,11 @@ section {
     text-decoration: underline;
 }
 
-#quote {
-    height: 2.5%;
-    width: 100%;
-}
-
-#quote>p {
+#aboutcont>#quote {
     color: white;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 8%;
 }
 
 #fear {
@@ -247,5 +244,4 @@ section {
 
 #workscont {
     display: block;
-    overflow-y: scroll;
 }
