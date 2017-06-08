@@ -245,3 +245,37 @@ section {
 #workscont {
     display: block;
 }
+
+.projectarticle {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 5% auto;
+}
+
+.projectcont {
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.projectname {
+    font-size: 1.3em;
+    color: #4e057c;
+    text-decoration: none;
+    font-style: italic;
+    margin: 0.25em 0 0.25em 0;
+}
+
+.projectscreen {
+    width: 598.4px;
+    height: 332px;
+}
+
+.projectp {
+    color: white;
+    text-align: center;
+}
