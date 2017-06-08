@@ -43,6 +43,9 @@ nav {
 
 #title {
     font-size: 2em;
+}
+
+.title {
     background: -webkit-linear-gradient(#eee, #333);
     background-clip: text;
     -webkit-background-clip: text;
@@ -111,11 +114,6 @@ section {
     width: 100%;
 }
 
-
-/*.mainheader {
-    background-color: black;
-}*/
-
 #botline {
     width: 65%;
     height: 100%;
@@ -152,16 +150,41 @@ section {
     background-position: 10% 25%;
 }
 
+#indexcont {
+    display: block;
+    height: 65%;
+}
+
+#indexcont>p {
+    text-align: center;
+}
+
 #welcome {
     color: white;
     font-size: 4em;
     text-align: center;
+    margin-bottom: 5%;
 }
 
-#indexp {
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
+.indexnavnamed {
+    color: #990606;
+}
+
+.lastindexp {
+    margin-bottom: 3.5%;
+}
+
+#indexquote {
+    font-size: 1.2em;
+}
+
+#travel {
+    font-weight: bold;
+}
+
+#quotefirst {
+    font-style: italic;
+    color: #1de5bd;
 }
 
 
