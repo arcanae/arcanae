@@ -20,7 +20,7 @@
             <p class="aboutp">Hey, my name is Justin Courdesse I'm 18, student at <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
             <p class="aboutp">My hobbies are <span class="hobbies">music</span>, <span class="hobbies">video games</span>, <span class="hobbies">editing quotes</span> and <span class="hobbies">code</span> of course.</p>
             <p class="hobbiesdes"><span class="titles">Music</span>: I have a <a href="https://www.youtube.com/c/ncarcanae">YouTube</a> channel where I post some retouched music (by me) for everyone who'd like to hear them.</p>
-            <p class="hobbiesdes"><span class="titles">Code</span>: There is my <a href="https://github.com/arcanae">GitHub</a> if you want to see the "origins" of my project.</p>
+            <p class="hobbiesdes"><span class="titles">Code</span>: There is my <a href="https://github.com/arcanae">GitHub</a> if you want to see the "origins" of my projects.</p>
             <p class="hobbiesdes"><span class="titles">Quotes</span>: Maybe you've seen the picture on home page, thats a quote I made then edited it on an image. I have some more but nowhere to display them for the moment, it will maybe come later on this site.</p>
             <p>You can contact me at: <span id="mail">justin.courdesse@gmail.com</span> .</p>
         </section>
