@@ -1,3 +1,6 @@
+<?php
+    $page = "Works";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +11,9 @@
     <link rel="stylesheet" href="style.css"/> 
 </head>
 <body>
-    <?php include("nav.php") ?>
+    <?php include("nav.php"); ?>
     <main>
-        <header class="mainheader" id="worksheader">
-            <div id="botline">
-            <h1>Works</h1>
-            </div>
-        </header>
+        <?php include("header.php"); ?>
         <div id="space"></div>        
         <section class="mainsec" id="workscont">
             <?php

@@ -1,3 +1,7 @@
+<?php
+    $page = "Index";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +14,10 @@
 </head>
 
 <body>
-    <?php include("nav.php") ?>
+    <?php include("nav.php"); ?>
     <main>
-        <header id="indexheader"></header>
+        <?php include("header.php"); ?>
+        <!--<header class="mainheader" id="Indexheader"></header>-->
         <div id="space"></div>
         <section class="mainsec" id="indexcont">
             <h1 id="welcome">Welcome to <span class="title">Arcanae</span>'s page.</h1>

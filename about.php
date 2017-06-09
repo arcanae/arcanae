@@ -1,3 +1,6 @@
+<?php
+    $page = "About";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +11,9 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <?php include("nav.php") ?>
+    <?php include("nav.php"); ?>
     <main>
-        <header class="mainheader" id="aboutheader">
-            <div id="botline">
-            <h1>About</h1>
-            </div>
-        </header>
+        <?php include("header.php"); ?>
         <div id="space"></div>
         <section class="mainsec" id="aboutcont">
             <p class="aboutp">Hey, my name is Justin Courdesse I'm 18, student at <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
