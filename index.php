@@ -1,5 +1,10 @@
 <?php
     $page = "Index";
+    if (isset($_POST['language'])) {
+    $language = $_POST['language'];
+    session_start();
+    $_SESSION['language'] = $language;
+    }
 ?>
 
 <!DOCTYPE html>
