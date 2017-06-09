@@ -1,6 +1,13 @@
 <?php
     $page = "Works";
     session_start();
+    if (isset($_POST['language'])) {
+    $language = $_POST['language'];
+    $_SESSION['language'] = $language;
+    } else {
+        $_SESSION['language'] = 'English';
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +22,7 @@
     <?php include("nav.php"); ?>
     <main>
         <?php include("header.php"); ?>
+    <?php if($_SESSION['language'] == 'English') {?>
         <div id="space"></div>        
         <section class="mainsec" id="workscont">
             <?php
@@ -42,8 +50,14 @@
         }
 
             
-            ?>
+       ?>
+
         </section>
     </main>
+    <?php } ?>
+    <?php if($_SESSION['language'] == 'Français') {
+    echo "fr";
+    }
+    ?>
 </body>
 </html>

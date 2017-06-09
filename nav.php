@@ -12,6 +12,18 @@
         </div>
     </div>
     <footer>
+        <?php if ($_SESSION['language'] == 'English') {?>
+        <form action="" method="POST">
+        <input type="hidden" name="language" value="Français">
+        <input class="langbut" id='enbut' type="submit" value="">
+        </form>
+        <?php } ?>
+        <?php if ($_SESSION['language'] == 'Français') {?>
+        <form action="" method="POST">
+        <input type="hidden" name="language" value="English">
+        <input class="langbut" id='frbut' type="submit" value="">
+        </form>
+        <?php } ?>
         <p id="copyright">© Arcanae</p>
     </footer>
 </nav>

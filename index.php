@@ -1,9 +1,11 @@
 <?php
     $page = "Index";
+    session_start();
     if (isset($_POST['language'])) {
     $language = $_POST['language'];
-    session_start();
     $_SESSION['language'] = $language;
+    } else {
+        $_SESSION['language'] = 'English';
     }
 ?>
 
@@ -22,6 +24,7 @@
     <?php include("nav.php"); ?>
     <main>
         <?php include("header.php"); ?>
+    <?php if($_SESSION['language'] == 'English') {?>
         <div id="space"></div>
         <section class="mainsec" id="indexcont">
             <h1 id="welcome">Welcome to <span class="title">Arcanae</span>'s page.</h1>
@@ -33,6 +36,11 @@
             <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
         </section>
     </main>
+    <?php } ?>
+    <?php if($_SESSION['language'] == 'Français') {
+    echo "fr";
+    }
+    ?>
 </body>
 
 </html>

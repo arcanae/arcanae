@@ -1,6 +1,12 @@
 <?php
     $page = "About";
     session_start();
+    if (isset($_POST['language'])) {
+    $language = $_POST['language'];
+    $_SESSION['language'] = $language;
+    } else {
+        $_SESSION['language'] = 'English';
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +21,7 @@
     <?php include("nav.php"); ?>
     <main>
         <?php include("header.php"); ?>
+    <?php if($_SESSION['language'] == 'English') {?>
         <div id="space"></div>
         <section class="mainsec" id="aboutcont">
             <p class="aboutp">Hey, my name is Justin Courdesse I'm 18, student at <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
@@ -26,5 +33,10 @@
             <p id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
     </main>
+    <?php }?>
+    <?php if($_SESSION['language'] == 'Français') {
+        echo "fr";
+    }
+    ?>
 </body>
 </html>
