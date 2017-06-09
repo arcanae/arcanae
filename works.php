@@ -1,13 +1,13 @@
 <?php
     $page = "Works";
     session_start();
-    if (isset($_POST['language'])) {
-    $language = $_POST['language'];
-    $_SESSION['language'] = $language;
-    } else {
+    if (!isset($_SESSION['language'])){
         $_SESSION['language'] = 'English';
     }
-
+    if (isset($_POST['language'])) {
+        $language = $_POST['language'];
+        $_SESSION['language'] = $language;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

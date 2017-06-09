@@ -1,11 +1,12 @@
 <?php
     $page = "Index";
     session_start();
-    if (isset($_POST['language'])) {
-    $language = $_POST['language'];
-    $_SESSION['language'] = $language;
-    } else {
+    if (!isset($_SESSION['language'])){
         $_SESSION['language'] = 'English';
+    }
+    if (isset($_POST['language'])) {
+        $language = $_POST['language'];
+        $_SESSION['language'] = $language;
     }
 ?>
 
@@ -37,10 +38,19 @@
         </section>
     </main>
     <?php } ?>
-    <?php if($_SESSION['language'] == 'Français') {
-    echo "fr";
-    }
-    ?>
+    <?php if($_SESSION['language'] == 'Français') { ?>
+    <div id="space"></div>
+        <section class="mainsec" id="indexcont">
+            <h1 id="welcome">Bienvenue sur le site d'<span class="title">Arcanae</span>.</h1>
+            <p>Hey! Je m'appel Justin, étudiant à <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
+            <p>Utilisez la section "<span class="indexnavnamed">About</span>" dans le menu à gauche, pour en savoir plus à mon propos !</p>
+            <p>Vous pouvez voir mes projets principaux avec le bouton "<span class="indexnavnamed">Works</span>".</p>
+            <p class="lastindexp">Et avec le lien "<span class="indexnavnamed">Simplon#3</span>" vous pouvez aller voir les pages des autres étudiants !</p>
+            <p class="lastindexp">Prenez votre temps sur mon site, mes travaux sont plutôt pas mal !</p>
+            <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
+        </section>
+    </main>
+    <?php } ?>
 </body>
 
 </html>
