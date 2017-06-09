@@ -35,9 +35,18 @@
         </section>
     </main>
     <?php }?>
-    <?php if($_SESSION['language'] == 'Français') {
-        echo "fr";
-    }
-    ?>
+    <?php if($_SESSION['language'] == 'Français') {?>
+        <div id="space"></div>
+        <section class="mainsec" id="aboutcont">
+            <p class="aboutp">Hey, je m'appel Justin Courdesse j'ai 18 ans et je suis étudiant chez <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
+            <p class="aboutp">Mes passions sont la <span class="hobbies">musique</span>, les <span class="hobbies">jeux vidéos</span>, <span class="hobbies">"quotes editing"</span> et le <span class="hobbies">code</span> (bien sur!).</p>
+            <p class="hobbiesdes"><span class="titles">Musique</span>: J'ai une chaine <a target="_blank" href="https://www.youtube.com/c/ncarcanae">YouTube</a> où je poste quelque musiques retouchées (par moi) pour n'importe qui voudrait les entendre.</p>
+            <p class="hobbiesdes"><span class="titles">Code</span>: Voici le lien de mon <a target="_blank" href="https://github.com/arcanae">GitHub</a> si vous voulez voir les "origines" de mes projets.</p>
+            <p class="hobbiesdes"><span class="titles">Quotes Editing</span>: Littéralement "édition de citation", comme vous pouvez le constater en bas de cette page ou sur la page d'acceuil je créer des citations et les éditent sur des images pour passer le temps.</p>
+            <p>Vous pouvez me contacter à l'adresse : <span id="mail">justin.courdesse@gmail.com</span> .</p>
+            <p id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
+        </section>
+    </main>
+    <?php } ?>
 </body>
 </html>
