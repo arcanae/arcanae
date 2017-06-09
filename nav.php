@@ -8,7 +8,7 @@
             <a class="navelement" href="index.php">Home</a>
             <a class="navelement" href="about.php">About</a>
             <a class="navelement" href="works.php">Works</a>
-            <a class="navelement" href="http://simplonlyon.fr/">Simplon#3</a>
+            <a target="_blank" class="navelement" href="http://simplonlyon.fr/">Simplon#3</a>
         </div>
     </div>
     <footer>
