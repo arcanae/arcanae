@@ -22,7 +22,6 @@
     <?php include("nav.php"); ?>
     <main>
         <?php include("header.php"); ?>
-    <?php if($_SESSION['language'] == 'English') {?>
         <div id="space"></div>        
         <section class="mainsec" id="workscont">
             <?php
@@ -39,11 +38,20 @@
             echo '</a>';
             echo '<a href="../works/'.$value.'/"><img class="projectscreen" src="../works/'.$value.'/screen.png">';
             echo '</a>';
-            $handle = fopen("../works/".$value."/info.txt", "r");
-            $read = fread($handle, filesize("../works/".$value."/info.txt"));
-            $read = htmlspecialchars($read);
-            $read = str_replace("\n", "</br>", $read);
-            echo '<p class="projectp">'.$read.'</p>';
+            if($_SESSION['language'] == 'English') {
+                $handle = fopen("../works/".$value."/info.txt", "r");
+                $read = fread($handle, filesize("../works/".$value."/info.txt"));
+                $read = htmlspecialchars($read);
+                $read = str_replace("\n", "</br>", $read);
+                echo '<p class="projectp">'.$read.'</p>';
+            }
+            if($_SESSION['language'] == 'Français') {
+                $handle = fopen("../works/".$value."/infofr.txt", "r");
+                $read = fread($handle, filesize("../works/".$value."/infofr.txt"));
+                $read = htmlspecialchars($read);
+                $read = str_replace("\n", "</br>", $read);
+                echo '<p class="projectp">'.$read.'</p>';
+            }
             echo '</div>';
             echo '</article>';
             }
@@ -51,10 +59,8 @@
 
             
        ?>
-
         </section>
     </main>
-    <?php } ?>
     <?php if($_SESSION['language'] == 'Français') {
     echo "fr";
     }
