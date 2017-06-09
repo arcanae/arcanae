@@ -1,6 +1,6 @@
 <nav>
     <div id="logocont">
-        <img id="logo" src="" alt="logo">
+        <!--<img id="logo" src="" alt="logo">-->
         <p class="title" id="title">Arcanae.co</p>
     </div>
     <div id="navcont1">
