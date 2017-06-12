@@ -26,7 +26,14 @@
     <main>
     <?php include("header.php"); ?>
     <?php if($_SESSION['language'] == 'English') {?>
-        <div id="space"></div>
+        <div id="space">
+        <?php if ($_SESSION['language'] == 'English') {?>
+            <form action="" method="POST">
+            <input type="hidden" name="language" value="Français">
+            <input class="langbut" id='enbut' type="submit" value="">
+            </form>
+        <?php } ?>
+        </div>
         <section class="mainsec" id="indexcont">
             <h1 id="welcome">Welcome to <span class="title">Arcanae</span>'s page.</h1>
             <p>Hey! I'm Justin, student at <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
@@ -39,7 +46,14 @@
     </main>
     <?php } ?>
     <?php if($_SESSION['language'] == 'Français') { ?>
-    <div id="space"></div>
+    <div id="space">
+            <?php if ($_SESSION['language'] == 'Français') {?>
+                <form action="" method="POST">
+                <input type="hidden" name="language" value="English">
+                <input class="langbut" id='frbut' type="submit" value="">
+                </form>
+        <?php } ?>
+        </div>
         <section class="mainsec" id="indexcont">
             <h1 id="welcome">Bienvenue sur le site d'<span class="title">Arcanae</span>.</h1>
             <p>Hey! Je m'appel Justin, étudiant à <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
