@@ -60,7 +60,7 @@
             <p>Utilisez la section "<span class="indexnavnamed">About</span>" dans le menu à gauche, pour en savoir plus à mon propos.</p>
             <p>Vous pouvez voir mes projets principaux avec le bouton "<span class="indexnavnamed">Projets</span>".</p>
             <p class="lastindexp">Et avec le lien "<span class="indexnavnamed">Simplon#3</span>" vous pouvez aller voir les pages des autres étudiants !</p>
-            <p class="lastindexp">Prenez votre temps sur mon site, en espérant que vous apprécierez mes travaux.</p>
+            <p class="lastindexp">Prenez votre temps sur mon site, en espérant que vous apprécierez mon travail.</p>
             <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
         </section>
     </main>
