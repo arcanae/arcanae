@@ -55,12 +55,12 @@
         <?php } ?>
         </div>
         <section class="mainsec" id="indexcont">
-            <h1 id="welcome">Bienvenue sur le site d'<span class="title">Arcanae</span>.</h1>
+            <h1 id="welcome">Bienvenue sur le site d'<span class="title">Arcanae.</span></h1>
             <p>Hey! Je m'appelle Justin, étudiant à <a href="http://lyon.simplon.co/" id="simplon">Si<span id="simp">mpl</span>on<span id="lon">.co</span></a>.</p>
-            <p>Utilisez la section "<span class="indexnavnamed">About</span>" dans le menu à gauche, pour en savoir plus à mon propos !</p>
+            <p>Utilisez la section "<span class="indexnavnamed">About</span>" dans le menu à gauche, pour en savoir plus à mon propos.</p>
             <p>Vous pouvez voir mes projets principaux avec le bouton "<span class="indexnavnamed">Projets</span>".</p>
             <p class="lastindexp">Et avec le lien "<span class="indexnavnamed">Simplon#3</span>" vous pouvez aller voir les pages des autres étudiants !</p>
-            <p class="lastindexp">Prenez votre temps sur mon site, mes travaux sont plutôt pas mal !</p>
+            <p class="lastindexp">Prenez votre temps sur mon site, en espérant que vous apprécierez mes travaux.</p>
             <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
         </section>
     </main>

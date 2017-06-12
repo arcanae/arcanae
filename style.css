@@ -43,10 +43,14 @@ nav {
 
 #title {
     font-size: 2em;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .title {
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(left, #eee, #333);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
