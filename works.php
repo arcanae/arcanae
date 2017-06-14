@@ -39,7 +39,7 @@
                 echo '<article class="projectarticle">';
                 echo '<div class="projectcont">';
                 echo '<a href="../works/'.$value.'/" class="projectname">';
-                echo $value;
+                echo strtoupper($value);
                 echo '</a>';
                 echo '<a href="../works/'.$value.'/"><img class="projectscreen" src="../works/'.$value.'/screen.png">';
                 echo '</a>';
