@@ -42,7 +42,7 @@
             <p class="aboutp">Mes passions sont la <span class="hobbies">musique</span>, les <span class="hobbies">jeux vidéos</span>, <span class="hobbies">"quotes editing"</span> et le <span class="hobbies">code</span> (bien sûr!).</p>
             <p class="hobbiesdes"><span class="titles">Musique</span>: J'ai une chaine <a target="_blank" href="https://www.youtube.com/c/ncarcanae">YouTube</a> sur laquelle je poste des musiques retouchées (par moi), n'hésitez pas à y jeter un oeil.</p>
             <p class="hobbiesdes"><span class="titles">Code</span>: Voici le lien de mon <a target="_blank" href="https://github.com/arcanae">GitHub</a> si vous voulez voir les "origines" de mes projets.</p>
-            <p class="hobbiesdes"><span class="titles">Quotes Editing</span>: Littéralement "édition de citations", comme vous pouvez le constater en bas de cette page ou sur la page d'accueil je prends des citations et les édite sur des images pour passer le temps.</p>
+            <p class="hobbiesdes"><span class="titles">Quotes Editing</span>: Littéralement "édition de citations", comme vous pouvez le constater en bas de cette page ou sur la page d'accueil je prends des citations et les édite sur des images.</p>
             <p>Vous pouvez me contacter à l'adresse : <span id="mail">justin.courdesse@gmail.com</span> .</p>
             <p id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
