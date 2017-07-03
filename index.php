@@ -41,7 +41,7 @@
             <p>You can see my main projects in the "<span class="indexnavnamed">Works</span>" section.</p>
             <p class="lastindexp">And then you can return/see the pages of my comrades with the "<span class="indexnavnamed">Simplon#3</span>" link.</p>
             <p class="lastindexp">Take your time visiting my website, my works are pretty cool !</p>
-            <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
+            <p class="quote" id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
         </section>
     </main>
     <?php } ?>
@@ -61,7 +61,7 @@
             <p>Vous pouvez voir mes projets principaux avec le bouton "<span class="indexnavnamed">Projets</span>".</p>
             <p class="lastindexp">Et avec le lien "<span class="indexnavnamed">Simplon#3</span>" vous pouvez aller voir les pages des autres étudiants !</p>
             <p class="lastindexp">Prenez votre temps sur mon site, en espérant que vous apprécierez mon travail.</p>
-            <p id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
+            <p class="quote" id="indexquote">"Your <span id="travel">travel</span> begin when YOU decide to make the <span id="quotefirst">first step</span>"</p>
         </section>
     </main>
     <?php } ?>

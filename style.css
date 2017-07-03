@@ -1,11 +1,16 @@
 @font-face {
-    font-family: "toledo";
-    src: url("media/Toledo.ttf")
+    font-family: "Ubuntu-Light";
+    src: url("media/Ubuntu-Light.ttf")
+}
+
+@font-face {
+    font-family: "IndieFlower";
+    src: url("media/IndieFlower.ttf")
 }
 
 * {
     margin: 0;
-    font-family: "toledo";
+    font-family: "Ubuntu-Light";
 }
 
 body {
@@ -206,6 +211,10 @@ section {
 #travel {
     font-weight: bold;
     color: #0d9906;
+}
+
+.quote {
+    font-family: "IndieFlower";
 }
 
 #quotefirst {

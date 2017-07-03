@@ -1,7 +1,7 @@
 <nav>
     <div id="logocont">
         <!--<img id="logo" src="" alt="logo">-->
-        <p id="title">Arcanae.co</p>
+        <a href="index.php" id="title">Arcanae.co</a>
     </div>
     <div id="navcont1">
         <div id="navcont2">

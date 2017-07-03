@@ -38,10 +38,10 @@
             else {
                 echo '<article class="projectarticle">';
                 echo '<div class="projectcont">';
-                echo '<a href="../works/'.$value.'/" class="projectname">';
+                echo '<a target="_blank" href="../works/'.$value.'/" class="projectname">';
                 echo strtoupper($value);
                 echo '</a>';
-                echo '<a href="../works/'.$value.'/"><img class="projectscreen" src="../works/'.$value.'/screen.png">';
+                echo '<a target="_blank" href="../works/'.$value.'/"><img class="projectscreen" src="../works/'.$value.'/screen.png">';
                 echo '</a>';
                 if($_SESSION['language'] == 'English') {
                     $handle = fopen("../works/".$value."/info.txt", "r");
