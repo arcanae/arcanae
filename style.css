@@ -91,6 +91,10 @@ nav {
     color: #990606;
 }
 
+.location {
+    color: #990606;
+}
+
 footer {
     display: flex;
     align-items: flex-end;
