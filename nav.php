@@ -6,6 +6,7 @@
     <div id="navcont1">
         <div id="navcont2">
             <?php 
+            var_dump($_SERVER['REQUEST_URI']);
                 if ($_SESSION['language'] == 'English') {
                     echo '<a class="navelement ';
                     if ($_SERVER['REQUEST_URI'] == "promo/justin/arcanae/index.php") {
