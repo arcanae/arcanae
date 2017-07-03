@@ -38,9 +38,9 @@
             else {
                 echo '<article class="projectarticle">';
                 echo '<div class="projectcont">';
-                echo '<a target="_blank" href="../works/'.$value.'/" class="projectname">';
+                echo '<h2 class="projectname"><a target="_blank" href="../works/'.$value.'/" class="projectname">';
                 echo strtoupper($value);
-                echo '</a>';
+                echo '</a></h2>';
                 echo '<a target="_blank" href="../works/'.$value.'/"><img class="projectscreen" src="../works/'.$value.'/screen.png">';
                 echo '</a>';
                 if($_SESSION['language'] == 'English') {

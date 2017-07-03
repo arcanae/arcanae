@@ -320,12 +320,13 @@ section {
     box-sizing: border-box;
 }
 
+.projectcont>h2 {
+    margin: 0.5em 0 0.5em 0;
+}
+
 .projectname {
-    font-size: 1.3em;
-    color: #4e057c;
+    color: #5DFFBE;
     text-decoration: none;
-    font-style: italic;
-    margin: 0.25em 0 0.25em 0;
 }
 
 .projectscreen {

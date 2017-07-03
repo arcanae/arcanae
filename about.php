@@ -31,7 +31,7 @@
             <p class="hobbiesdes"><span class="titles">Code</span>: There is my <a target="_blank" href="https://github.com/arcanae">GitHub</a> if you want to see the "origins" of my projects.</p>
             <p class="hobbiesdes"><span class="titles">Quotes</span>: Maybe you've seen the picture on home page, thats a quote I made then edited it on an image. I have some more but nowhere to display them for the moment, it will maybe come later on this website.</p>
             <p>You can contact me at: <span id="mail">justin.courdesse@gmail.com</span> .</p>
-            <p class="quote" id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
+            <p class="quote" id="quote">"We don't <span class="quote" id="fear">fear</span> the <span class="quote" id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
     </main>
     <?php }?>
@@ -44,7 +44,7 @@
             <p class="hobbiesdes"><span class="titles">Code</span>: Voici le lien de mon <a target="_blank" href="https://github.com/arcanae">GitHub</a> si vous voulez voir les "origines" de mes projets.</p>
             <p class="hobbiesdes"><span class="titles">Quotes Editing</span>: Littéralement "édition de citations", comme vous pouvez le constater en bas de cette page ou sur la page d'accueil je prends des citations et les édite sur des images.</p>
             <p>Vous pouvez me contacter à l'adresse : <span id="mail">justin.courdesse@gmail.com</span> .</p>
-            <p class="quote" id="quote">"We don't <span id="fear">fear</span> the <span id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
+            <p class="quote" id="quote">"We don't <span class="quote" id="fear">fear</span> the <span class="quote" id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
     </main>
     <?php } ?>
