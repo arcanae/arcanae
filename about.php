@@ -44,7 +44,7 @@
             <p class="hobbiesdes"><span class="titles">Code</span>: Voici le lien de mon <a target="_blank" href="https://github.com/arcanae">GitHub</a> si vous voulez voir les "origines" de mes projets.</p>
             <p class="hobbiesdes"><span class="titles">Quotes Editing</span>: Littéralement "édition de citations", comme vous pouvez le constater en bas de cette page ou sur la page d'accueil je prends des citations et les édite sur des images.</p>
             <p>Vous pouvez me contacter à l'adresse : <span id="mail">justin.courdesse@gmail.com</span> .</p>
-            <p class="quote" id="quote">"We don't <span class="quote" id="fear">fear</span> the <span class="quote" id="hardwork">hard work</span>, because <span id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
+            <p class="quote" id="quote">"We don't <span class="quote" id="fear">fear</span> the <span class="quote" id="hardwork">hard work</span>, because <span class="quote" id="icwt">In C<span id="spancode">ode</span> We T<span id="spanrust">rust</span></span>"</p>
         </section>
     </main>
     <?php } ?>

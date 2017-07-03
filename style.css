@@ -280,6 +280,11 @@ section {
     margin-top: 8%;
 }
 
+#quote>span,
+#quote>span>span {
+    font-family: "IndieFlower";
+}
+
 #fear {
     color: #423e3e;
 }
