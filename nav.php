@@ -22,7 +22,6 @@
                 } 
             ?>   
             <a class="navelement" href="about.php">About</a>
-            <a target="_blank" class="navelement" href="http://simplonlyon.fr/">Simplon#3</a>
         </div>
     </div>
     <footer>

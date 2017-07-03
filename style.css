@@ -98,26 +98,6 @@ footer {
     height: 10%;
 }
 
-.langbut {
-    border-radius: 12.5px;
-    width: 25px;
-    height: 25px;
-    margin-left: 0.5em;
-    margin-top: 0.5em;
-}
-
-#enbut {
-    background-color: none;
-    background: url("media/french.png");
-    background-size: 100%;
-}
-
-#frbut {
-    background-color: none;
-    background: url("media/uk.png");
-    background-size: 100%;
-}
-
 #copyright {
     margin-bottom: 0.2em;
     margin-right: 1em;
@@ -187,6 +167,26 @@ section {
 
 #indexcont>p {
     text-align: center;
+}
+
+.langbut {
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#enbut {
+    background-color: none;
+    background: url("media/french.png");
+    background-size: 100%;
+}
+
+#frbut {
+    background-color: none;
+    background: url("media/uk.png");
+    background-size: 100%;
 }
 
 #welcome {
