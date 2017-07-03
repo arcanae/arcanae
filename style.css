@@ -175,9 +175,9 @@ section {
 /* index */
 
 #Indexheader {
-    background-image: url("media/alive.png");
+    background-image: url("media/back.jpg");
     background-size: 100%;
-    background-position: 10% 25%;
+    background-position: 10% 55%;
 }
 
 #indexcont {
